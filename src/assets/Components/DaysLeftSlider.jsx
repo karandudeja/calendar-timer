@@ -9,34 +9,34 @@ export default function DaysLeftSlider(){
     const styleTimeSliderContainer = {
         width: "100%",
         height: "2rem",
-        padding: '0.5rem',
-        borderRadius: '8px',
-        border: '1px solid #555',
-        backgroundColor: "#222",
+        padding: '0.4rem',
+        borderRadius: '25px',
+        border: '1px solid #ddd',
+        backgroundColor: "#eee",
         display: 'flex'
     };
 
     const styleTimeSliderDaysPassed = {
         width: sliderWidth + "%",
         height: "100%",
-        borderRadius: '4px 0 0 4px',
-        backgroundColor: "#444"
+        borderRadius: '25px 0 0 25px',
+        backgroundColor: "#aaa"
     };
 
     const styleTimeSliderDaysLeft = {
         width: sliderRemainsWidth + "%",
         height: "100%",
-        borderRadius: '0 4px 4px 0',
-        backgroundColor: "#449966"
+        borderRadius: '0 25px 25px 0',
+        backgroundColor: "#228855"
     };
 
     return(
-        <div>
-            <div style={styleTimeSliderContainer}>
-                <div style={styleTimeSliderDaysPassed}></div>
-                <div style={styleTimeSliderDaysLeft}></div>
-            </div>
+       
+        <div style={styleTimeSliderContainer}>
+            <div style={styleTimeSliderDaysPassed}></div>
+            <div style={styleTimeSliderDaysLeft}></div>
         </div>
+        
     );
 
 }

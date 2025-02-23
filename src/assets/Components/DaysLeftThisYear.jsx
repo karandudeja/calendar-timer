@@ -8,11 +8,15 @@ export default function DaysLeftThisYear(){
     const currentYear = today.getFullYear();
     
     return(
-        <div>
-            <h4>Days passed <br/>in this year {currentYear},<br/>excluding today</h4>
-            <h1>{daysPassed}</h1>
-            <h4>Days left in the year {currentYear}</h4>
-            <h1>{daysLeft}</h1>
+        <div className="mt-7 mb-3">
+            <div className="flex flex-row place-content-between">
+                <p>Days passed in {currentYear} <span className="text-gray-400 text-sm"> &nbsp; excluding today</span></p>
+                <p>Days left in {currentYear}</p>
+            </div>
+            <div className="flex flex-row place-content-between text-2xl font-bold">
+                <p>{daysPassed}</p>
+                <p>{daysLeft}</p>
+            </div>
         </div>
     );
 }

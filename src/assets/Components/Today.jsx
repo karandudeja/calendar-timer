@@ -6,9 +6,9 @@ export default function Today(){
 
     return(
         <div>
-            <h4>Today is</h4>
-            <h1>{today.getDate()} {months[today.getMonth()]} {today.getFullYear()} </h1>
-            <h5>{dayOfWeek[today.getDay()]}</h5>
+            <p className="text-gray-500">Today is</p>
+            <p className="text-3xl font-bold mt-2">{today.getDate()} {months[today.getMonth()]} {today.getFullYear()} </p>
+            <p className="text-gray-900">{dayOfWeek[today.getDay()]}</p>
         </div>
     );
 }
