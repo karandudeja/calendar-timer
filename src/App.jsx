@@ -6,6 +6,8 @@ import './App.css'
 import Today from './assets/Components/Today'
 import DaysLeftThisYear from './assets/Components/DaysLeftThisYear'
 import DaysLeftSlider from './assets/Components/DaysLeftSlider'
+import TitleDivider from './assets/Components/TitleDivider'
+import ObjectiveText from './assets/Components/ObjectiveText'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -37,6 +39,8 @@ function App() {
         <Today />
         <DaysLeftThisYear />
         <DaysLeftSlider />
+        <TitleDivider title={"Objective"}/>
+        <ObjectiveText />
       </div>
     </div>
   )
