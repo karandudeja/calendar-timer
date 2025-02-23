@@ -8,7 +8,7 @@ import DaysLeftThisYear from './assets/Components/DaysLeftThisYear'
 import DaysLeftSlider from './assets/Components/DaysLeftSlider'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <>
