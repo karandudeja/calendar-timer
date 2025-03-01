@@ -20,14 +20,14 @@ export default function DaysLeftSlider(){
         width: sliderWidth + "%",
         height: "100%",
         borderRadius: '25px 0 0 25px',
-        backgroundColor: "#aaa"
+        backgroundColor: "#bbb"
     };
 
     const styleTimeSliderDaysLeft = {
         width: sliderRemainsWidth + "%",
         height: "100%",
         borderRadius: '0 25px 25px 0',
-        backgroundColor: "#228855"
+        backgroundColor: "#272727"
     };
 
     return(
