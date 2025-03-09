@@ -8,6 +8,7 @@ import DaysLeftThisYear from './assets/Components/DaysLeftThisYear'
 import DaysLeftSlider from './assets/Components/DaysLeftSlider'
 import TitleDivider from './assets/Components/TitleDivider'
 import ObjectiveText from './assets/Components/ObjectiveText'
+import WeekNumber from './assets/Components/WeekNumber'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -37,6 +38,7 @@ function App() {
       <hr/> */}
       <div className="m-8">
         <Today />
+        <WeekNumber />
         <DaysLeftThisYear />
         <DaysLeftSlider />
         <TitleDivider title={"Objective"}/>
